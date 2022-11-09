@@ -9,43 +9,59 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-
   <title>Document</title>
+  <script src="https://kit.fontawesome.com/60e213a116.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
-    <nav>
-      <div id="underline"><a href="index.html">Home</a></div>
-      <div><a href="./about/about.html">About</a></div>
-      <div><a href="./contact/contact.html">Contact</a></div>
-      <div><a href="./portfolios/portfolios.html">Portfolios</a></div>
-      <div><a href="./journey/journey.html">Journey</a></div>
-      <div><a href="./blog/blog.html">Blog</a></div>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <i class="fa-brands fa-accusoft"></i>
+        <a href="#">mywebsite</a>
+      </div>
+      <div class="navbar__menu">
+        <ul>
+          <div><a href="/about/about.html">About</a></div>
+          <div><a href="/contact/contact.html">Contact</a></div>
+          <div><a href="/portfolios/portfolios.html">Portfolios</a></div>
+          <div><a href="/journey/journey.html">journey</a></div>
+          <div><a href="/blog/blog.html">blog</a></div>
+        </ul>
+      </div>
     </nav>
-    <img id="hello" src="./img/index/sitting.svg" alt="hello">
   </header>
-  <div class="wrapper">
-    <div id="container">
-      <span>Hey there 👋<br><span>I am <div id="underline">seosolbin.</div></span>
+  <div class="wrap">
+    <div class="container">
+      <span>
+        <a class="underline-animation">
+          Hey there <div class="waving">👋</div><br>I am Solbin.
+        </a>
+      </span>
     </div>
-    <div id="desc">Lorem Ipsum is simply dummy text of the printing and typesetting<br>industry. Lorem Ipsum has
-        been
-        the
-        industry's standard dummy text<br>ever since the 1500s, when an unknown printer took a galley of type<br>and
-        scrambled it to make a type specimen book.
-      <img id="okay" src="./img/index/okaysign.svg" alt="okay">
+    <div class="desc">
+      <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and
+        scrambled
+        it <br> to make a type specimen book.</span>
     </div>
-    <div id="btn">
-      <button id="btn1" type="button" onclick="location.href='./about/about.html'">About me</button>
-      <button id="btn2" type="button" onclick="location.href='./portfolios/portfolios.html'">😮 Let's see portfolios</button>
+    <div class="btn">
+      <a href="/about/about.html">
+        <div id="btn1">About me</div>
+      </a>
+      <a href="/portfolios/portfolios.html">
+        <div id="btn2">😮Let's see portfolios!</div>
+      </a>
     </div>
     <footer>
-      <div id="copyright">Copyright 2021. All right reserved.</div>
-      <div id="myGithub"><a href="https://github.com/pineconekr"><img src="./img/githubicon.svg" alt="mygithub"></a></div>
-      <div id="source">Source code available</div>
+      <span> 2022 All rights reserved.</span>
+      <span><a href="https://github.com/pineconekr" target="_blank"><img src="/img/footer/githubico.svg"
+            alt="github link" width="40px"></a></span>
+      <span><a href="https://twitter.com/seobins1" target="_blank"><img src="/img/footer/twitico.svg" alt="twitter link"
+            width="33px"></a></span>
+      <span> Source code available.</span>
     </footer>
-    </wrapper>
+  </div>
 </body>
 
 </html>

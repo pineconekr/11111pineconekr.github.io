@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  min-width: 1300px;
+  height: 60px;
+  background: linear-gradient(#454545, #0c0c0c);
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+  line-height: 50px;
+
+}
+
+header div {
+  display: inline-block;
+  margin: 0 80px;
+
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20;
+}
+
+.navbar__toogleBtn {
+  position: absolute; /*소속된 배치와 무관하게 위치 설정*/
+  right : 15px; /*우측에서 32px 거리둠*/
+  font-size: 24px;
+  color : black;
+}
+
+.wrap {
+  height: 77.6vh;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 250px 250px 250px;
+  margin-left: 16vw;
+  margin-top: 8vh;
+  gap: 20px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  color: white;
+  border: 2px solid gray;
+  border-radius: 30px;
+}
+
+.container {
+  margin-top: 150px;
+  font-weight: bold;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+}
+
+.underline-animation {
+  color: inherit;
+  text-decoration: none;
+}
+
+.underline-animation {
+  background:
+    linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
+    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.7s;
+}
+
+.underline-animation:hover,
+.underline-animation:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+footer {
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.underline a {
+  text-decoration: underline;
+  text-decoration-color: #fdb827;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
