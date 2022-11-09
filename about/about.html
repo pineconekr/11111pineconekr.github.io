@@ -9,27 +9,37 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-
-  <title>Document</title>
+  <title>About</title>
+  <script src="https://kit.fontawesome.com/60e213a116.js" crossorigin="anonymous"></script>
+  <script src="/main.js" defer></script>
 </head>
 
 <body>
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <i class="fa-brands fa-accusoft"></i>
+      <a href="/index.html">mywebsite</a>
+    </div>
+    <ul class="navbar__menu">
+      <li><a href="/about/about.html">About</a></li>
+      <li><a href="/contact/contact.html">Contact</a></li>
+      <li><a href="/portfolios/portfolios.html">Portfolios</a></li>
+      <li><a href="/journey/journey.html">journey</a></li>
+      <li><a href="/blog/blog.html">blog</a></li>
+    </ul>
+    <ul class="navbar__icons">
+      <li><i class="fa-brands fa-twitter"></i></li>
+      <li><i class="fa-brands fa-facebook"></i></li>
+    </ul>
+    <a href="#" class="navbar__toggleBtn">
+      <i class="fa-solid fa-bars"></i>
+    </a>
+  </nav>
   <div class="wrap">
-    <header>
-      <nav>
-        <div><a href="/index.html">Home</a></div>
-        <div class="underline"><a href="/about/about.html">About</a></div>
-        <div><a href="/contact/contact.html">Contact</a></div>
-        <div><a href="/portfolios/portfolios.html">Portfolios</a></div>
-        <div><a href="/journey/journey.html">Journey</a></div>
-        <div><a href="/blog/blog.html">Blog</a></div>
-      </nav>
-    </header>
     <div class="container">
-      <div><img src="/img/about/about.svg" alt="about" class="aboutimg"></div>
       <h1>I’m seo solbin,<br>
         A <div class="marker">Fullstack</div> web developer <br>
-        <div class="marker"> My goal is to create a highly responsive web design.
+        My goal is to create a <div class="marker">highly responsive</div> web design.
       </h1>
       <div class="desc">
         <div class="headtalk">The standard Lorem Ipsum passage, used since the 1500s</div><br>
@@ -53,14 +63,15 @@
           fugiat quo voluptas nulla pariatur?"</div><br>
       </div>
     </div>
-    <footer>
-      <span> 2022 All rights reserved.</span>
-      <span><a href="https://github.com/pineconekr" target="_blank"><img src="/img/footer/githubico.svg"
-            alt="github link" width="40px"></a></span>
-      <span><a href="https://twitter.com/seobins1" target="_blank"><img src="/img/footer/twitico.svg" alt="twitter link"
-            width="33px"></a></span>
-      <span> Source code available.</span>
-    </footer>
+  </div>
+  <footer>
+    <span> 2022 All rights reserved.</span>
+    <span><a href="https://github.com/pineconekr" target="_blank"><img src="/img/footer/githubico.svg" alt="github link"
+          width="40px"></a></span>
+    <span><a href="https://twitter.com/seobins1" target="_blank"><img src="/img/footer/twitico.svg" alt="twitter link"
+          width="33px"></a></span>
+    <span> Source code available.</span>
+  </footer>
   </div>
 </body>
 
